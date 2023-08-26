@@ -2,6 +2,8 @@ import React from "react";
 import Heading from "./Heading";
 import Profile from "./Profile";
 import teamData from "./teamData.json";
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
 
 function Team(props) {
   const names = [
@@ -11,6 +13,7 @@ function Team(props) {
     "Riyadh",
   ];
   return (
+
     <div className="container ">
       {/* <div className="row">
         <Heading heading="Electronics & Software Team" />
@@ -45,6 +48,7 @@ function Team(props) {
         </div>
       ))}
     </div>
+
   );
 }
 

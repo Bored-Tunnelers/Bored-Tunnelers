@@ -2,24 +2,26 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
-import logo from "./logo.svg";
 import "./App.css";
 
 // Custom Components
-import Team from "./components/team/Team";
+import Team from "./pages/team/Team";
 import Footer from "./components/footer/Footer";
+import Homepage from "./pages/homepage/Homepage";
+import testPage from "./pages/testPage";
+import { Routes, Route } from "react-router-dom";
+import Header from "./components/header/Header";
 
 function App() {
   return (
     <React.Fragment>
-      {/* <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-        </header>
-      </div> */}
-
-      <Team />
-      <Footer />
+    <Header/>
+    <Routes>
+      <Route path="/" element={<Homepage />} />
+      <Route path="/team" element={<Team />} />
+      <Route path="/test" element={<testPage />} />
+    </Routes>
+    <Footer/>
     </React.Fragment>
   );
 }
