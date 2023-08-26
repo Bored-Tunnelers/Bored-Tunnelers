@@ -2,12 +2,13 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
-import logo from "./logo.svg";
+
 import "./App.css";
 
 // Custom Components
-import Team from "./components/team/Team";
+import Team from "./pages/team/Team";
 import Footer from "./components/footer/Footer";
+import Homepage from "./pages/homepage/Homepage";
 
 function App() {
   return (
@@ -17,8 +18,8 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
         </header>
       </div> */}
-
-      <Team />
+      <Homepage/>
+      {/* <Team /> */}
       <Footer />
     </React.Fragment>
   );
