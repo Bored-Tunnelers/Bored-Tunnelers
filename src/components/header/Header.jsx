@@ -24,15 +24,28 @@ const Header = () => {
           />
           <span className="logo-header">Bored Tunnelers</span>
         </Navbar.Brand>
-        
+
         <div className={`mobile-nav ${showDrawer ? "open" : ""}`}>
           <Nav className="mobile-nav-links">
-            <Nav.Link href="#home"> <Link to='/'>Home</Link></Nav.Link>
-            <Nav.Link href="#our-story"><Link to='/test'>Our Story</Link></Nav.Link>
-            <Nav.Link href="#teams"><Link to='/team'>Team</Link></Nav.Link>
-            <Nav.Link href="#partners"><Link to='/test'>Partners</Link></Nav.Link>
-            <Nav.Link href="#technology"><Link to='/test'>Technology</Link></Nav.Link>
-            <Nav.Link href="#news"><Link to='/test'>News</Link></Nav.Link>
+            <Nav.Link href="#home">
+              {" "}
+              <Link to="/">Home</Link>
+            </Nav.Link>
+            <Nav.Link href="#our-story">
+              <Link to="/test">Our Story</Link>
+            </Nav.Link>
+            <Nav.Link href="#teams">
+              <Link to="/team">Team</Link>
+            </Nav.Link>
+            <Nav.Link href="#partners">
+              <Link to="/test">Partners</Link>
+            </Nav.Link>
+            <Nav.Link href="#technology">
+              <Link to="/test">Technology</Link>
+            </Nav.Link>
+            <Nav.Link href="#news">
+              <Link to="/test">News</Link>
+            </Nav.Link>
           </Nav>
         </div>
         <button className="drawer-toggle" onClick={toggleDrawer}>

@@ -2,33 +2,12 @@ import React from "react";
 import Heading from "./Heading";
 import Profile from "./Profile";
 import teamData from "./teamData.json";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
 
 function Team(props) {
-  const names = [
-    "Al Mominul Haque Badhan",
-    "Abu Talha",
-    "Nafis Ashraf",
-    "Riyadh",
-  ];
   return (
-
-    <div className="container ">
-      {/* <div className="row">
-        <Heading heading="Electronics & Software Team" />
-
-        {names.map((name) => (
-          <div className="col">
-            <div className="text-center mx-4" key={name}>
-              <Profile name={name} />
-            </div>
-          </div>
-        ))}
-      </div> */}
-
+    <div className="container">
       {teamData.teams.map((team) => (
-        <div key={team.name}>
+        <div className="bg-white rounded rounded-5" key={team.name}>
           <Heading heading={team.name} />
 
           <div className="row justify-content-center">
@@ -48,7 +27,6 @@ function Team(props) {
         </div>
       ))}
     </div>
-
   );
 }
 
