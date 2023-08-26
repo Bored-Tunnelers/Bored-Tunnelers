@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from '../../components/header/Header'
+import Footer from '../../components/footer/Footer'
 
 
 const Homepage = () => {
   return (
-    <React.Fragment>  
-    <Header/>
+
     <h1>THIS IS THE HOME PAGE</h1>
-    </React.Fragment>
+
   )
 }
 

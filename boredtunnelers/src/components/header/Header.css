@@ -22,6 +22,24 @@
     width: 100%;
   }
 
+  .Link{
+    text-decoration: none;
+  }
+
+  .mobile-nav-links a {
+    text-decoration: none; 
+    color: white; 
+  }
+  
+  .mobile-nav-links a:hover {
+    text-decoration: none;
+    color: silver; 
+  }
+
+ 
+
+ 
+
   
   
   @media screen and (max-width: 999px) {

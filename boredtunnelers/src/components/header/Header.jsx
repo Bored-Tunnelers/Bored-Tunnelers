@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logos from "../../assets/images/logo.png";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [showDrawer, setShowDrawer] = useState(false);
@@ -26,12 +27,12 @@ const Header = () => {
         
         <div className={`mobile-nav ${showDrawer ? "open" : ""}`}>
           <Nav className="mobile-nav-links">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#our-story">Our Story</Nav.Link>
-            <Nav.Link href="#teams">Teams</Nav.Link>
-            <Nav.Link href="#partners">Partners</Nav.Link>
-            <Nav.Link href="#technology">Technology</Nav.Link>
-            <Nav.Link href="#news">News</Nav.Link>
+            <Nav.Link href="#home"> <Link to='/'>Home</Link></Nav.Link>
+            <Nav.Link href="#our-story"><Link to='/test'>Our Story</Link></Nav.Link>
+            <Nav.Link href="#teams"><Link to='/team'>Team</Link></Nav.Link>
+            <Nav.Link href="#partners"><Link to='/test'>Partners</Link></Nav.Link>
+            <Nav.Link href="#technology"><Link to='/test'>Technology</Link></Nav.Link>
+            <Nav.Link href="#news"><Link to='/test'>News</Link></Nav.Link>
           </Nav>
         </div>
         <button className="drawer-toggle" onClick={toggleDrawer}>
