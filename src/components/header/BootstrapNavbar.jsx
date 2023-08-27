@@ -55,7 +55,7 @@ const BootstrapNavbar = () => {
                   </li>
 
                   <li class="nav-item mt-2 mt-lg-0 ">
-                    <Link class="nav-link text-white hover-line" to="/test">
+                    <Link class="nav-link text-white hover-line" to="/our-story">
                     <div data-bs-dismiss="offcanvas" data-bs-target="#sidebarMenu">
                       Our Story
                       </div>
