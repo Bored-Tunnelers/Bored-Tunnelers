@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "./firebase-config";
-import "./Contactpage.css";
+import styles from "./Contactpage.module.css";
 import locationpic from "./location.png";
 import callpic from "./call.png";
 import emailpic from "./mail.png";
@@ -52,11 +52,11 @@ const Contactpage = () => {
 
   return (
     <section>
-      <div className="container">
-        <div className="contactInfo">
+      <div className={styles.container}>
+        <div className={styles.contactInfo}>
           <div>
             <h2>Contact Info</h2>
-            <ul className="info">
+            <ul className={styles.info}>
               <li>
                 <span>
                   <img src={locationpic} alt="Location" />
@@ -86,10 +86,10 @@ const Contactpage = () => {
             </ul>
           </div>
         </div>
-        <div className="contactForm">
+        <div className={styles.contactForm}>
           <h2>Send us a Message</h2>
-          <div className="formBox">
-            <div className="inputBox w50">
+          <div className={styles.formBox}>
+            <div className={styles.inputBox + ' ' + styles.w50}>
               <input
                 type="text"
                 name="firstName"
@@ -99,7 +99,7 @@ const Contactpage = () => {
               />
               <span>First Name</span>
             </div>
-            <div className="inputBox w50">
+            <div className={styles.inputBox + ' ' + styles.w50}>
               <input
                 type="text"
                 name="lastName"
@@ -109,7 +109,7 @@ const Contactpage = () => {
               />
               <span>Last Name</span>
             </div>
-            <div className="inputBox w50">
+            <div className={styles.inputBox + ' ' + styles.w50}>
               <input
                 type="email"
                 name="email"
@@ -119,7 +119,7 @@ const Contactpage = () => {
               />
               <span>Email Address</span>
             </div>
-            <div className="inputBox w50">
+            <div className={styles.inputBox + ' ' + styles.w50}>
               <input
                 type="text"
                 name="mobileNumber"
@@ -129,7 +129,7 @@ const Contactpage = () => {
               />
               <span>Mobile Number</span>
             </div>
-            <div className="inputBox w100">
+            <div className={styles.inputBox + ' ' + styles.w100}>
               <textarea
                 name="message"
                 value={message}
@@ -138,7 +138,7 @@ const Contactpage = () => {
               ></textarea>
               <span>Write your message here...</span>
             </div>
-            <div className="inputBox w100">
+            <div className={styles.inputBox + ' ' + styles.w100}>
               <input type="submit" value="Send" onClick={handleSubmit} />
             </div>
           </div>

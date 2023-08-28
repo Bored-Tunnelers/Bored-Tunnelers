@@ -4,7 +4,7 @@ import { db } from './firebase-config';
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import './adminHome.css'
+import styles from './adminHome.module.css'
 
 const AdminHome = () => {
   const [messages, setMessages] = useState([]);
@@ -49,8 +49,8 @@ const AdminHome = () => {
 
   return (
     <div>
-      <h2 className='heading'>Messages Received From Users</h2>
-      <Table className='table' striped bordered hover>
+      <h2 className={styles.heading}>Messages Received From Users</h2>
+      <Table className={styles.table} striped bordered hover>
         <thead>
           <tr>
             <th>First Name</th>
