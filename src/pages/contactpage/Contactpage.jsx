@@ -21,6 +21,12 @@ const Contactpage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    if (!firstName || !lastName || !email || !mobileNumber || !message) {
+      alert("Please fill in all required fields.");
+      return;
+    }
+
+
     try {
       await addDoc(collection(db, "Messages"), {
         firstName,
