@@ -13,6 +13,7 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header";
 import Timeline from "./components/timeline/Timeline";
 import BootstrapNavbar from "./components/header/BootstrapNavbar";
+import Contactpage from "./pages/contactpage/Contactpage";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/team" element={<TeamPage />} />
         <Route path="/our-story" element={<Timeline />} />
+        <Route path="/contact" element={<Contactpage />} />
         <Route path="/test" element={<testPage />} />
       </Routes>
       <Footer />
