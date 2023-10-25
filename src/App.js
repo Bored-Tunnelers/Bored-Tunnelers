@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 import "./App.css";
-import './styles/global.css';
+import "./styles/global.css";
 
 // Custom Components
 import TeamPage from "./pages/team/TeamPage";
@@ -16,15 +16,18 @@ import Timeline from "./components/timeline/Timeline";
 import BootstrapNavbar from "./components/header/BootstrapNavbar";
 import Contactpage from "./pages/contactpage/Contactpage";
 import AdminHome from "./pages/adminPage/adminHome";
+import TechnologyPage from "./pages/technology/TechnologyPage";
 
 function App() {
   return (
     <React.Fragment>
       <BootstrapNavbar />
-      <Routes>AdminHome
+      <Routes>
+        AdminHome
         <Route path="/" element={<Homepage />} />
         <Route path="/team" element={<TeamPage />} />
         <Route path="/our-story" element={<Timeline />} />
+        <Route path="/technology" element={<TechnologyPage />} />
         <Route path="/contact" element={<Contactpage />} />
         <Route path="/admin" element={<AdminHome />} />
         <Route path="/test" element={<testPage />} />
