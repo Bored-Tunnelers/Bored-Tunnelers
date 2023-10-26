@@ -17,20 +17,22 @@ import BootstrapNavbar from "./components/header/BootstrapNavbar";
 import Contactpage from "./pages/contactpage/Contactpage";
 import AdminHome from "./pages/adminPage/adminHome";
 import TechnologyPage from "./pages/technology/TechnologyPage";
+import FeaturedPage from "./pages/featuredPage/FeaturedPage";
 
 function App() {
   return (
     <React.Fragment>
       <BootstrapNavbar />
       <Routes>
-        AdminHome
         <Route path="/" element={<Homepage />} />
         <Route path="/team" element={<TeamPage />} />
         <Route path="/our-story" element={<Timeline />} />
         <Route path="/technology" element={<TechnologyPage />} />
         <Route path="/contact" element={<Contactpage />} />
         <Route path="/admin" element={<AdminHome />} />
+        <Route path="/featuredPage" element={<FeaturedPage />} />
         <Route path="/test" element={<testPage />} />
+        
         {/* <Route
           path="/*"
           element={() => {

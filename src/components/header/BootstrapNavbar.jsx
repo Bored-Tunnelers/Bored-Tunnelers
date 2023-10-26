@@ -81,12 +81,12 @@ const BootstrapNavbar = () => {
                   </li>
 
                   <li class="nav-item mt-2 mt-lg-0">
-                    <Link class="nav-link text-white hover-line" to="/test">
+                    <Link class="nav-link text-white hover-line" to="/featuredPage">
                       <div
                         data-bs-dismiss="offcanvas"
                         data-bs-target="#sidebarMenu"
                       >
-                        Partners
+                        Featured
                       </div>
                     </Link>
                   </li>
