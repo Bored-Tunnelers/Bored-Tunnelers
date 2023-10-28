@@ -1,5 +1,6 @@
 import React from "react";
 import featuresData from "./features.json";
+import pic from './Picture1Tech.png'
 
 function TechnologyFeatures() {
   const { features, navigationSystem } = featuresData;
@@ -60,6 +61,8 @@ function TechnologyFeatures() {
         </div>
       </div>
 
+
+
       <div class="container py-5">
         <div class="row align-items-center">
           <h1 className="text-center text-white  mb-0 pb-4 pt-5">
@@ -92,6 +95,53 @@ function TechnologyFeatures() {
           </div>
         </div>
       </div>
+
+
+
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <h1 className="text-center text-white  mb-0 pb-4 pt-5">
+            Features
+          </h1>
+          <hr className="border  mx-auto mb-5" />
+          <div class="col-md-6 order-2 order-md-1"> {/* Move this column to the right */}
+            <ul>
+              <li className="py-3 fs-5 lh-lg">
+                <strong>500 mm diameter</strong>
+              </li>
+
+              <li className="py-3 fs-5 lh-lg">
+                <strong>Closer tool spacing</strong>
+              </li>
+
+              <li className="py-3 fs-5 lh-lg">
+                <strong>Safe Valve</strong>
+              </li>
+
+              <li className="py-3 fs-5 lh-lg">
+                <strong>Direct measurement by Instrumentation</strong>
+              </li>
+
+              <li className="py-3 fs-5 lh-lg">
+                <strong>Proportional Pressure Lowering Valve</strong>
+              </li>
+
+              <li className="py-3 fs-5 lh-lg">
+                <strong>Computation-based vector observation</strong>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 order-1 order-md-2"> {/* Move this column to the left */}
+            <img
+              src={pic}
+              alt="Hydraulic System Image"
+              class="img-fluid "
+
+            />
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }
