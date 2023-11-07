@@ -9,9 +9,9 @@ import ElementThree from "../../components/HomePageElements/ElementThree/Element
 const Homepage = () => {
   return (
     <>
-      <ElementOne/>
-      <ElementTwo/>
-      <ElementThree/>
+      <ElementOne />
+      <ElementTwo />
+      <ElementThree />
     </>
   );
 };
