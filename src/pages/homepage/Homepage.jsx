@@ -10,9 +10,9 @@ import TechnicalSpecifications from "../../components/HomePageElements/Technical
 const Homepage = () => {
   return (
     <>
+      <ElementThree />
       <ElementOne />
       <ElementTwo />
-      <ElementThree />
       <TechnicalSpecifications />
     </>
   );
