@@ -1,6 +1,7 @@
 import React from "react";
 import pic from "./Pciture1E3.png";
-import "./ElementThree.css"; // Import the CSS file
+import styles from "./ElementThree.module.css";
+import { Link } from "react-router-dom";
 
 const ElementThree = () => {
   return (
@@ -32,29 +33,54 @@ const ElementThree = () => {
           </div>
         </div>
       </div> */}
+      <hr />
       <div
-        className="container-fluid"
-        style={{ paddingLeft: "10rem", paddingRight: "10rem" }}
+        className={`container pb-5 d-flex flex-column align-items-center ${styles["parent"]}`}
       >
-        <img
-          src="images/TeamBangladesh.png"
-          alt="team bangladesh"
-          style={{ width: "100%" }}
-        />
-        <p
-          className="text-center py-5"
-          style={{
-            fontSize: "1.7rem",
-            paddingLeft: "10rem",
-            paddingRight: "10rem",
-          }}
-        >
-          Team BORED TUNNELLERS is the only South Asian Team to be qualified for
-          the Finals in Elon Musk's Not-A-Boring Competition. Their proposed
-          solution Micro Tunnelling Boring Technology has the potential to win
-          the Not-a-Boring Competition 2024.
-        </p>
+        <div className="row">
+          <div className="col-md-6">
+            <img
+              className={`${styles["bd-pattern"]}`}
+              src="images/bd-pattern.png"
+              alt="pattern"
+            />
+            <img
+              src="images/TeamBangladesh-lg.jpg"
+              alt="team bangladesh"
+              style={{ width: "100%" }}
+            />
+          </div>
+          <div className="col-md-6 d-flex flex-column justify-content-center align-items-center">
+            <h1
+              className={`${styles["dynamic-heading"]} py-3`}
+              style={{ color: "#2e2e2e" }}
+            >
+              Team BORED TUNNELERS
+            </h1>
+            <p className={`${styles["dynamic-text"]} `}>
+              Team BORED TUNNELERS is the only South Asian Team to be qualified
+              for the Finals in Elon Musk's Not-A-Boring Competition. Their
+              proposed solution Micro Tunnelling Boring Technology has the
+              potential to win the Not-a-Boring Competition 2024.
+            </p>
+
+            <div className="pt-3">
+              <a href="/about">
+                <button className="btn btn-dark px-4 py-2 mx-2 ">
+                  <div className={`${styles["dynamic-text"]}`}> About Us </div>
+                </button>
+              </a>
+
+              <a href="/team">
+                <button className="btn btn-secondary px-4 py-2 mx-2">
+                  <div className={`${styles["dynamic-text"]}`}> Our Team </div>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
+      <hr />
     </>
   );
 };
