@@ -1,0 +1,211 @@
+{
+  "teams": [
+    {
+      "name": "Advisors",
+      "members": [
+        {
+          "name": "Prof Dr. Ahmad Athif",
+          "image": "images/team/Dr_Ahmad_Athif.jpg"
+        },
+        {
+          "name": "Salman Promon Khan",
+          "image": "images/team/Salman_Promon_Khan.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Board Members",
+      "members": [
+        {
+          "name": "Shaekh Mohammad Shithil",
+          "university": "UTM",
+          "image": "images/team/Shaekh_Mohammad_Shithil.jpg"
+        },
+        {
+          "name": "Shahriar Iqbal",
+          "university": "RUET",
+          "image": "images/team/M_Shahriar_Iqbal.jpg"
+        },
+        {
+          "name": "Fahin Uddin Enam",
+          "university": "BRAC University",
+          "image": "images/team/Fahin_Uddin_Enam.jpg"
+        },
+        {
+          "name": "Imran Khan",
+          "university": "BUET",
+          "image": "images/team/Md_Imran_Khan.jpg"
+        },
+        {
+          "name": "Sibly Noman",
+          "university": "UTM",
+          "image": "images/team/Sibly_Noman.jpg"
+        },
+        {
+          "name": "Talha Zubair",
+          "university": "NDC",
+          "image": "images/team/Talha_Zubair.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Navigation And Control Team",
+      "members": [
+        {
+          "name": "Shaekh Mohammad Shithil",
+          "university": "UTM",
+          "image": "images/team/Shaekh_Mohammad_Shithil.jpg"
+        },
+        {
+          "name": "Jamiul Haque",
+          "university": "MIST",
+          "image": "images/team/Jamiul_Haque.jpg"
+        },
+        {
+          "name": "Jawadur Rahman",
+          "university": "MIST",
+          "image": "images/team/Jawadur_Rahman.jpg"
+        },
+        {
+          "name": "Sibly Noman",
+          "university": "UTM",
+          "image": "images/team/Sibly_Noman.jpg"
+        },
+        {
+          "name": "Abul Bashar Raz ",
+          "image": "images/team/Abul_Bashar_Raz.jpg",
+          "university": "SUST"
+        }
+      ]
+    },
+
+    {
+      "name": "Mechanical Team",
+      "members": [
+        {
+          "name": "Shaekh Mohammad Shithil",
+          "university": "UTM",
+          "image": "images/team/Shaekh_Mohammad_Shithil.jpg"
+        },
+
+        {
+          "name": "Fahin Uddin Enam",
+          "university": "BRAC University",
+          "image": "images/team/Fahin_Uddin_Enam.jpg"
+        },
+        {
+          "name": "S M Tamim Ahmed",
+          "university": "BUET",
+          "image": "images/team/S_M_Tamim Ahmed.jpg"
+        },
+        {
+          "name": "Mahbubur Rahman",
+          "university": "UTM",
+          "image": "images/team/Mahbubur_Rahman.jpg"
+        },
+        {
+          "name": "Ahmed Inkiad",
+          "image": "images/team/Ahmed_Inkiad.jpg",
+          "university": "BUET"
+        },
+        {
+          "name": "Jamiul Haque",
+          "university": "MIST",
+          "image": "images/team/Jamiul_Haque.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Electrical Team",
+      "members": [
+        {
+          "name": "Jamiul Haque",
+          "university": "MIST",
+          "image": "images/team/Jamiul_Haque.jpg"
+        },
+        {
+          "name": "Jawadur Rahman",
+          "university": "MIST",
+          "image": "images/team/Jawadur_Rahman.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Civil and Geotechnical Engineering Team",
+      "members": [
+        {
+          "name": "Imran Khan",
+          "university": "BUET",
+          "image": "images/team/Md_Imran_Khan.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Software Team",
+      "members": [
+        {
+          "name": "Abu Talha",
+          "image": "images/team/Abu_Talha.jpg",
+          "university": "UTM",
+          "role": ""
+        },
+        {
+          "name": "Nafis Ashraf",
+          "image": "images/team/Nafis_Ashraf.jpg",
+          "university": "BRAC University",
+          "role": ""
+        }
+      ]
+    },
+    {
+      "name": "Media and Sponsor Team",
+      "members": [
+        {
+          "name": "Shibly Noman",
+          "university": "UTM",
+          "image": "images/team/Sibly_Noman.jpg"
+        },
+        {
+          "name": "Pritom Dutta",
+          "university": "BRAC University",
+          "image": "images/team/Pritom_Dutta.jpg"
+        },
+        {
+          "name": "Tanfiya Khan Disha",
+          "university": "IUB",
+          "image": "images/team/Tanfiya_Khan_Disha.jpg"
+        },
+        {
+          "name": "Talha Zubair",
+          "university": "NDC",
+          "image": "images/team/Talha_Zubair.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Manufacturing Team",
+      "members": [
+        {
+          "name": "Khaled Mahmud",
+          "image": "images/team/Khaled_Mahmud.jpg",
+          "university": ""
+        },
+        {
+          "name": "Md Apu Bhuiyan",
+          "image": "images/team/Md_Apu_Bhuiyan.jpg",
+          "university": ""
+        }
+      ]
+    },
+    {
+      "name": "Logistics Team",
+      "members": [
+        {
+          "name": "Sazu Islam",
+          "image": "images/team/Sazu_Islam.jpg",
+          "university": ""
+        }
+      ]
+    }
+  ]
+}
